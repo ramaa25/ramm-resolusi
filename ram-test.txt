@@ -9,3 +9,7 @@ remote: sumber yang memiliki remote
 clone: mengambil repo dari remote
 push: mengirimkan commit ke repo
 pull: mengambil commit dari repo
+branch: jalur 'development' bebas dari sebuah commit
+checkout: perpindah ke branch / commit yang lain
+pull request: meminta pemilik repo untuk 'mengambil' perubahan yang telah dilakukan
+merge conflict: baris yang sama diubah oleh 2 branch yang berbeda
