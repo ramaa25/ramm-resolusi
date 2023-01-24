@@ -13,3 +13,5 @@ branch: jalur 'development' bebas dari sebuah commit
 checkout: perpindah ke branch / commit yang lain
 pull request: meminta pemilik repo untuk 'mengambil' perubahan yang telah dilakukan
 merge conflict: baris yang sama diubah oleh 2 branch yang berbeda
+fork: membuat copy/duplikat dari repo orang lain tanpa mengganggu repo aslinya, jembatan antara repo original dan duplikatnya
+orang yang melakukan fork disebut pull request. Fork != clone
