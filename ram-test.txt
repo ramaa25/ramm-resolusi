@@ -16,6 +16,37 @@ merge conflict: baris yang sama diubah oleh 2 branch yang berbeda
 fork: membuat copy/duplikat dari repo orang lain tanpa mengganggu repo aslinya, jembatan antara repo original dan duplikatnya
 orang yang melakukan fork disebut pull request. Fork != clone
 
+dri komen yt
+cd <path> = Untuk berpindah directory.
+md <nama folder> = Untuk membuat sebuah folder dalam working directory.
+cd. > <nama file.extension file> = Untuk membuat sebuah file dalam working directory.
+rd <nama folder> /q /s = Untuk menghapus bersih folder yang ditentukan.
+ren <nama file/folder> = Untuk merename folder/file.
+cls = Untuk clear terminal
+code . = Untuk membuka VSCode dalam working directory.
+
+2nd
+↪memberi tahu semua branch yang ada
+○git branch <nama_branch>
+↪membuat branch baru
+○git log --all --decorate --oneline --graph
+↪ fungsinya untuk menampilkan graph (cuma bisa menampilkan sekali)
+○alias graph="git log --all --decorate --oneline --graph"
+↪ fungsinya sebagai alternatif untuk menampilkan graph  namun dapat digunakan berkali kali jadi disarankan memakai perintah ini
+○git checkout <nama_branch>
+↪ fungsinya untuk merubah branch ke branch yang dituju
+○graph
+↪fungsinya untuk mengetahui grafik dari branch nya
+○git merged 
+↪ fungsinya untuk mengetahui branch mana yang sudah di merged
+○git merge <nama_branch>
+↪ untuk merged branch suatu file
+Bonus:
+
+jenis merge:
+○fast forward = Terjadi ketika branch yang ingin digabungkan berada di satu jalur
+○Three way merge/merge commit = terjadi ketika branch yang digabungkan tidak berada di satu jalur
+
 Git Command (local)
 $ git init (menginisialisi repo git di pc)
 $ git add <file(s)> (nambah file ke staging area)
