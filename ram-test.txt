@@ -15,3 +15,16 @@ pull request: meminta pemilik repo untuk 'mengambil' perubahan yang telah dilaku
 merge conflict: baris yang sama diubah oleh 2 branch yang berbeda
 fork: membuat copy/duplikat dari repo orang lain tanpa mengganggu repo aslinya, jembatan antara repo original dan duplikatnya
 orang yang melakukan fork disebut pull request. Fork != clone
+
+Git Command (local)
+$ git init (menginisialisi repo git di pc)
+$ git add <file(s)> (nambah file ke staging area)
+$ git status (mengetahui status repo)
+$ git config (untuk masukkan konfigurasi ke git)
+$ git branch
+$ git help 
+
+3 area pada repo git 
+- working tree
+- staging area
+- history
